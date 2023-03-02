@@ -1,0 +1,27 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+properties:
+  manip:
+    type: string
+
+  coldata:
+    type: string
+
+  condition:
+    type: string
+
+  preprocessing:
+    type: object
+    properties:
+      sequence_coverage:
+        type: integer
+      unique_peptides:
+        type: integer
+
+    required:
+      - sequence_coverage
+      - unique_peptides
