@@ -5,23 +5,12 @@ description: snakemake configuration file
 type: object
 
 properties:
-  manip:
-    type: string
 
-  coldata:
-    type: string
-
-  condition:
-    type: string
-
-  preprocessing:
+  svm:
     type: object
     properties:
-      sequence_coverage:
-        type: integer
-      unique_peptides:
-        type: integer
+      kernel:
+        type: string
 
     required:
-      - sequence_coverage
-      - unique_peptides
+      - kernel

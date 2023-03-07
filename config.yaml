@@ -1,6 +1,3 @@
-preprocessing:
-    # Remove proteins with Unique peptides <= n
-    unique_peptides: 1
-    # Remove proteins with Sequence coverage [%] <= n
-    sequence_coverage: 5
-
+svm:
+    # Kernel to use for the smv model
+    kernel: "linear"

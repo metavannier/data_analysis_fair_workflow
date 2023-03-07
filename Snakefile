@@ -26,7 +26,8 @@ REPORT = srcdir("07_Report/")
 
 rule all:
   input:
-    rule_heatmap = OUTPUTDIR + "01_heatmap_marker_genes/heatmap_marker_genes.txt",
+    decision_boundaries = OUTPUTDIR + "01_svn/decision_boundaries.pdf",
+    training_points = OUTPUTDIR + "01_svn/training_points.pdf",
 
 # ----------------------------------------------
 # setup report
@@ -38,4 +39,4 @@ report: "07_Report/workflow.rst"
 # Load rules 
 # ----------------------------------------------
 
-include: ENVDIR + "heatmap_marker_genes.smk"
+include: ENVDIR + "ml_data_analysis.smk"
