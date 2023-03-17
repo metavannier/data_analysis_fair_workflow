@@ -26,11 +26,12 @@ REPORT = srcdir("07_Report/")
 
 rule all:
   input:
+    X_train = OUTPUTDIR + "00_preprocessing/X_train.txt",
+    y_train = OUTPUTDIR + "00_preprocessing/y_train.npy",
     decision_boundaries = OUTPUTDIR + "01_svn/decision_boundaries.pdf",
-    training_points = OUTPUTDIR + "01_svn/training_points.pdf",
 
 # ----------------------------------------------
-# setup report
+# Setup report
 # ----------------------------------------------
 
 report: "07_Report/workflow.rst"
