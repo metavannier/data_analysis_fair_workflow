@@ -8,10 +8,6 @@ Thomas Vannier (@metavannier), https://centuri-livingsystems.org/t-vannier/
 
 A workflow to understand how to analyze this data follow the FAIR data principles (findable, accessible, interoperable, reusable).
 
-x steps for the analysis:
-
-- 
-
 ## Usage
 
 ### Step 1: Install workflow
