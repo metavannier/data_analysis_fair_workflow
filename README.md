@@ -1,5 +1,3 @@
-Test
-
 # Introduction to biological data analysis
 
 ## Author
