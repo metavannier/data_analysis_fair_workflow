@@ -8,10 +8,6 @@ Thomas Vannier (@metavannier), https://centuri-livingsystems.org/t-vannier/
 
 A workflow to understand how to analyze this data follow the FAIR data principles (findable, accessible, interoperable, reusable).
 
-x steps for the analysis:
-
-- 
-
 ## Usage
 
 ### Step 1: Install workflow
@@ -23,7 +19,7 @@ We would be pleased if you use this workflow and participate in its improvement.
 ### Step 2: Configure workflow
 
 Configure the workflow according to your needs via editing the files and repositories:
-- 00_RawData need the table .
+- 00_RawData need the iris table (iris.txt).
 
 - [config.yaml](/config.yaml) indicating the parameters to use.
 
