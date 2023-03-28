@@ -28,7 +28,7 @@ rule all:
   input:
     X_train = OUTPUTDIR + "00_preprocessing/X_train.txt",
     y_train = OUTPUTDIR + "00_preprocessing/y_train.npy",
-    decision_boundaries = OUTPUTDIR + "01_svn/decision_boundaries.pdf",
+    # decision_boundaries = OUTPUTDIR + "01_svn/decision_boundaries.pdf",
 
 # ----------------------------------------------
 # Setup report
