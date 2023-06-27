@@ -1,3 +1,5 @@
+TEST collab
+
 # Docker container based on a minimal Ubuntu installation that includes conda-forge's mambaforge installer.
 container: "docker://condaforge/mambaforge:22.11.1-4"
 
