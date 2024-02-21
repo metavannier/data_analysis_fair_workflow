@@ -6,11 +6,6 @@ import seaborn as sns
 import graphviz
 import pandas as pd
 
-# Load the trainer
-# X_train = pd.read_csv(snakemake.input["X_train"])
-# with open(snakemake.input["y_train"], 'rb') as f:
-#     y_train = np.load(f)
-
 #Import scikit-learn dataset library
 from sklearn import datasets
 #Load dataset
