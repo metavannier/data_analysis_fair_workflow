@@ -2,7 +2,6 @@ import csv
 import numpy as np
 import matplotlib.pyplot as plt
 import mpl_toolkits.mplot3d
-#Import scikit-learn dataset library
 from sklearn import datasets
 
 # We use pandas for better manipulation
@@ -11,7 +10,6 @@ import pandas as pd
 iris = datasets.load_iris()
 
 # load data in a dataframe
-# df = pd.read_csv(snakemake.input["iris"])
 df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
 df['target'] = pd.Series(iris.target)
 
