@@ -9,4 +9,4 @@
 .local/
 .singularity/
 snakemake_virtenv/
-
+singularity-ce-3.8.4/
