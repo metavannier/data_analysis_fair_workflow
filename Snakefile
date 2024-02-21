@@ -1,6 +1,3 @@
-# Docker container based on a minimal Ubuntu installation that includes conda-forge's mambaforge installer.
-container: "docker://condaforge/mambaforge:22.11.1-4"
-
 from snakemake.utils import validate, min_version
 ##### set minimum snakemake version #####
 min_version("5.1.2")
@@ -28,7 +25,7 @@ rule all:
   input:
     X_train = OUTPUTDIR + "00_preprocessing/X_train.txt",
     y_train = OUTPUTDIR + "00_preprocessing/y_train.npy",
-    # decision_boundaries = OUTPUTDIR + "01_svn/decision_boundaries.pdf",
+    decision_boundaries = OUTPUTDIR + "01_svn/decision_boundaries.pdf",
 
 # ----------------------------------------------
 # Setup report
